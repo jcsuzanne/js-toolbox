@@ -9,7 +9,7 @@
         },
         //Main entry point.
         init: function(options) {
-            return _instance || new Transition(options);
+            return _instance || new Toolbox(options);
         }
     };
 
