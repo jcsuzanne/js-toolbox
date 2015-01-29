@@ -26,7 +26,7 @@
         return document.getElementById('main-content').getAttribute("data-controller")
     }
 
-    Toolbox.prototype.getController = function()
+    Toolbox.prototype.getMode = function()
     {
         var index = $(document.getElementById('state-indicator')).css('z-index');
             var states = {
